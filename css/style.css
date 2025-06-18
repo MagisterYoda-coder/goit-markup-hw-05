@@ -13,7 +13,7 @@ a {
 ul {
   list-style: none;
 }
-ul > li {
+ul>li {
   list-style-type: none;
 }
 
