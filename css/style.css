@@ -22,10 +22,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
-/* .portfolio-list img {
-    width: 360;
-    height: 300;
-} */
+
 .header-logo-part {
     color : #2e2f42
 }
@@ -39,7 +36,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.addres {
+.address {
     font-style: normal;
 }
 
@@ -85,7 +82,8 @@ letter-spacing: 0.04em;
 color: #fff;
 background-color: #4d5ae5;;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -136,5 +134,9 @@ color: #f4f4fd;
 }
 
 .people-cards {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+}
+
+.team-list-item {
+ background-color: #FFFFFF;
 }
