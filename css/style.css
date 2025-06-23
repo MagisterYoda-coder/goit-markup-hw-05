@@ -379,7 +379,7 @@ margin-bottom: 8px;
 
 }
 
-.list-item-social {
+.list-item-social a {
    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 40px;
     height: 40px;
@@ -388,8 +388,8 @@ margin-bottom: 8px;
       border-radius: 50%;
 }
 
-.list-item-social:hover,
-.list-item-social:focus {
+.list-item-social:hover a,
+.list-item-social:focus a {
     background-color: #404bbf;
 }   
  
