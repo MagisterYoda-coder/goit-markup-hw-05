@@ -479,8 +479,8 @@
         </div>
         <div class="subscribe">
           <p class="subscribe-title">Subscribe</p>
-          <form action="" class="subscribe-form">
-            <label>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
               <input
                 class="subscribe-input"
                 type="email"
@@ -489,7 +489,7 @@
                 required
               />
             </label>
-            <button class="subscribe-button">
+            <button type="submit" class="subscribe-button">
               Subscribe
               <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-send"></use>
@@ -572,13 +572,21 @@
               name="user-privacy"
               required
             />
-            <label for="user-privacy" class="checkbox-label"
-              ><span class="checkbox-part">
+            <label for="user-privacy" class="checkbox-label">
+              <input class="checkbox-input"
+                type="checkbox"
+                id="user-privacy"
+                name="privacy"
+                required
+              />
+              <span class="checkbox-part">
                 <svg class="checkbox-icon" width="10" height="8">
                   <use href="./images/submint.svg#icon-submint"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a href="" class="privacy-policy-link">Privacy Policy</a></label
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="#" class="privacy-policy-link">Privacy Policy</a>
+            </label>
             >
           </div>
           <button class="send-form">Send</button>
