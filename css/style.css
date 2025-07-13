@@ -666,6 +666,8 @@ cursor: pointer;
 }
 
 .subscribe-input {
+     width: 264px;
+      height: 40px;
     border: 1px solid #FFFFFF;
   background-color: transparent;
   font-size: 12px;
