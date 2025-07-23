@@ -778,10 +778,17 @@ margin-bottom: 4px;
       justify-content: center;
        fill: transparent; 
 }
-.checkbox-input:checked + .checkbox-part {
-   fill: #f4f4fd;
+
+.checkbox-input {
+    fill: #f4f4fd;
     background-color: #404bbf;
     border: none;
+}
+
+.checkbox-input:checked + .checkbox-label .checkbox-part {
+  fill: #f4f4fd;
+  background-color: #404bbf;
+  border: none;
 }
 .privacy-policy-link {
     color: #4d5ae5;
