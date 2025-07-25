@@ -698,9 +698,10 @@ border-radius: 4px;
 cursor: pointer;
     background-color: #4d5ae5;
     border: none;
-  
+  /* ====== */
 }
 .subscribe-icon {
+    fill: #FFFFFF;
     margin-left: 16px;
 }
 .label-wrapper {
